@@ -1,0 +1,48 @@
+.modal {
+  padding: 1em;
+  max-width: 50ch;
+  border: 0;
+  box-shadow: 0 0 1em rgb(0 0 0 / .3);
+  background-color: white;
+}
+
+.modal-background{
+  background: rgb(0 0 0 / 0.8);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  background: rgb(2, 2, 91);
+  color: white;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  border-radius: 0.5rem;
+}
+
+.button:hover {
+  background: rgb(150, 150, 217);
+}
+
+h2{
+  margin-top: 0;
+}
